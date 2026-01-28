@@ -29,14 +29,12 @@ html {
       flex-direction: row;
 
       #left {
-        position: relative;
-        left:0;
         height: 100%;
-        flex: 1 1 40vw;
+        flex: 0 1 40vw;
       }
       #right {
         height: 100%;
-        flex: 1 1 auto;
+        flex: 0 1 auto;
       }
     }
   }
